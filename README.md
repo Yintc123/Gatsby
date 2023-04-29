@@ -12,7 +12,7 @@ Gatsby 能選擇使用以下三種方式渲染網頁：
     Server-Side Rendering（SSR）
   </a>：伺服器端渲染，伺服器收到瀏覽器的請求之後，在伺服器端渲染完成後再回傳給瀏覽器。
 
-註：由於 React 的特性，以上渲染方式皆支援 Client-Side Rendering（CSR）。
+註：於本地端（Local）開發時，Gatsby 以 <a href="https://developers.google.com/search/docs/crawling-indexing/googlebot?hl=en">Client-Side Rendering（CSR）</a>的方式渲染網頁。
 ## Search Engine Optimization（SEO）
 SEO 為搜尋引擎最佳化，SEO 能使網站的搜尋排名變好並且提升網站的能見度與流量。Google 會使用 <a href="https://developers.google.com/search/docs/crawling-indexing/googlebot?hl=en">Googlebot（網路檢索器）</a>對網頁進行<a href="https://developers.google.com/search/docs/fundamentals/how-search-works?hl=en#crawling">檢索（crawling）</a>及對網頁內容分析並且<a href="https://developers.google.com/search/docs/fundamentals/how-search-works?hl=en#indexing">建立索引（indexing）</a>。
 <br/>
