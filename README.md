@@ -20,7 +20,7 @@ SEO 為搜尋引擎最佳化，SEO 能使網站的搜尋排名變好並且提升
 Googlebot 檢索 CSR 的網頁有無法解析網頁內容的疑慮，<a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics?hl=en#how-googlebot-processes-javascript">由於初始的 HTML 並未有完整的網頁內容，此時 Google 就必須執行 JavaScript 才能查看產生的實際網頁內容</a>。
 <br/>
 <br/>
-使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 使用 SSG 的渲染方式，於編譯期就將 React 開發的 JavaScript, HTML 和 CSS 預先渲染完成並且依據各頁面製成多個 HTML 檔。
+使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 使用 SSG 的渲染方式，於編譯期就將 React 開發的 JavaScript, HTML 和 CSS 預先渲染完成並且依據網頁頁面製成多個 HTML 檔。
 
 ## Reference
 <ol>
