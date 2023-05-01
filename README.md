@@ -4,7 +4,7 @@ Gatsby 為 Jamstack 架構的靜態網頁開發工具，以 React 作為前端�
 Jamstack 為一種網站開發架構，其中 Jam 分別代表 JavaScript, APIs, Markup。
 - JavaScript：在瀏覽器運作的 JavaScript（Client-side JavaScript）動態渲染網頁內容及與使用者互動。
 - APIs：使用第三方的 API 服務。
-- HTML Markup：預先渲染完成的 HTML。（靜態網頁）
+- HTML Markup：預先渲染完成的 HTML。（靜態檔案）
 ### Principles
 - <a href="https://jamstack.org/glossary/pre-render/">預先渲染（Pre-rendering）</a>：使用 Static Site Generation（SSG）技術，於編譯期（build time）就將網頁渲染完成。
 - <a href="https://jamstack.org/glossary/decoupling/">解耦合（Decouple）</a>：前端與後端僅須透過 API 溝通及傳遞資料，使開發者可以專注於前端或後端開發。
@@ -36,7 +36,7 @@ SEO 為搜尋引擎最佳化，SEO 能使網站的搜尋排名變好並且提升
 Googlebot 檢索 CSR 的網頁有無法解析網頁內容的疑慮，由於初始的 HTML 並未有完整的網頁內容，<a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics?hl=en#how-googlebot-processes-javascript">此時 Google 就必須執行 JavaScript 才能查看產生的實際網頁內容</a>。
 <br/>
 <br/>
-使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 使用 SSG 的渲染方式，於編譯期就將 React 開發的網頁元件（components）檔和 CSS 檔預先渲染成一 HTML 並且依據每個網頁頁面製成各頁面的 HTML 檔。
+使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 預設使用 SSG 的渲染方式，於編譯期就將 React 開發的網頁元件（components）檔和 CSS 檔預先渲染成一 HTML 並且依據每個網頁頁面製成各頁面的 HTML 檔；而 <a href="https://www.gatsbyjs.com/blog/how-does-deferred-static-generation-affect-seo/#gatsby-skip-here">DSG 的渲染方式</a>未預先渲染選定的頁面，網站伺服器於第一次收到該特定頁面的請求才開始編譯並渲染（如同 SSR 的運作機制），會導致載入的時間較 SSG 稍久，可能影響到 SEO 的結果。
 
 ## Reference
 <ol>
