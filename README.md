@@ -44,7 +44,25 @@ Googlebot 檢索 CSR 的網頁有無法解析網頁內容的疑慮，由於初�
 ```Shell
 npm install gatsby-cli
 ```
-2. 
+2. 初始化 Gatsby
+```Shell
+npm init gatsby
+```
+以下為此專案的設定：
+- 設定網站名稱：My Gatsby Site（預設）
+- 設定網站資料夾名稱：my-gatsby-site（預設）
+- 使用 JavaScript/TypeScript：TypeScript
+- 是否使用 CMS：NO
+- 是否安裝<a href="https://www.gatsbyjs.com/starters/">風格模板</a>：NO
+- 是否安裝額外的插件：NO
+3. 移動到專案資料夾
+```Shell
+cd my-gatsby-site
+```
+4. 啟動 Gatsby 專案的開發者模式
+```Shell
+gatsby develop
+```
 
 ## Reference
 <ol>
