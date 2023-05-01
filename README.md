@@ -55,6 +55,7 @@ npm init gatsby
 - 是否使用 CMS：NO
 - 是否安裝<a href="https://www.gatsbyjs.com/starters/">風格模板</a>：NO
 - 是否安裝額外的插件：NO
+
 3. 移動到專案資料夾
 ```Shell
 cd my-gatsby-site
