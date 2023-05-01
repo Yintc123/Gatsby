@@ -1,16 +1,17 @@
 # Gatsby
 Gatsby 為 Jamstack 架構的靜態網頁開發工具，以 React 作為前端開發框架並且整合查詢語言 GraphQL 處理資料。
 ## <a href="https://jamstack.org/">Jamstack</a>
-Jamstack 為一種網站開發架構，其中 Jam 分別代表 JavaScript, APIs, Markup。
-- JavaScript：在瀏覽器運作的 JavaScript（Client-side JavaScript）動態渲染網頁內容及與使用者互動。
-- APIs：使用第三方的 API 服務。
-- HTML Markup：預先渲染完成的 HTML。（靜態檔案）
+Jamstack 為一種網站開發架構。Jamstack 架構中，網站伺服器僅需提供靜態檔案並且網頁透過 JavaScript 與使用者的互動或產生動態內容，其中 Jam 分別代表 JavaScript, APIs, Markup。
+- JavaScript：在瀏覽器運作的 JavaScript（Client-side JavaScript）動態渲染網頁內容。
+- APIs：使用第三方的 API 服務處理動態的資料傳遞。
+- HTML Markup：網站伺服器僅需提供靜態檔案（預先渲染完成的 HTML）。
 ### Principles
 - <a href="https://jamstack.org/glossary/pre-render/">預先渲染（Pre-rendering）</a>：使用 Static Site Generation（SSG）技術，於編譯期（build time）就將網頁渲染完成。
 - <a href="https://jamstack.org/glossary/decoupling/">解耦合（Decouple）</a>：前端與後端僅須透過 API 溝通及傳遞資料，使開發者可以專注於前端或後端開發。
 ### <a href="https://jamstack.org/why-jamstack/">Benefits</a>
 - 速度：網頁伺服器僅須直接回應已渲染完成的靜態檔案，不需做資料處理後再渲染 HTML 檔案，響應速度相較 Server-Side Rendering（SSR）的單體式網站架構（monolithic architectures）快。
 - 部署彈性：靜態檔案不僅可以部署在網頁伺服器上，也能放置於物件儲存服務（如 GCP 的 Cloud storage）透過內容傳遞網路（Content Delivery Network，CDN）取得靜態網頁。
+- 可擴展性：可透過 CDN 提供靜態檔案並且靜態檔案可以被快取（Cache）在 CDN 的各個節點中。
 - 開發體驗：前後端分離的特性，使開發者可以專注於前端或後端開發。
 - 安全性：使用 CDN 或是網站伺服器不需要處理資料可以避免伺服器攻擊（Server-Side Includes (SSI) Injection）以及資料庫攻擊（SQL Injection）。
 - 維護性：部署的複雜度低甚至能直接放置於物件儲存服務中，相較 SSR 網站架構的維護性低。
@@ -36,12 +37,14 @@ SEO 為搜尋引擎最佳化，SEO 能使網站的搜尋排名變好並且提升
 Googlebot 檢索 CSR 的網頁有無法解析網頁內容的疑慮，由於初始的 HTML 並未有完整的網頁內容，<a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics?hl=en#how-googlebot-processes-javascript">此時 Google 就必須執行 JavaScript 才能查看產生的實際網頁內容</a>。
 <br/>
 <br/>
-使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 預設使用 SSG 的渲染方式，於編譯期就將 React 開發的網頁元件（components）檔和 CSS 檔預先渲染成一 HTML 並且依據每個網頁頁面製成各頁面的 HTML 檔；而 <a href="https://www.gatsbyjs.com/blog/how-does-deferred-static-generation-affect-seo/#gatsby-skip-here">DSG 的渲染方式</a>未預先渲染選定的頁面，網站伺服器於第一次收到該特定頁面的請求才開始編譯並渲染（如同 SSR 的運作機制），會導致載入的時間較 SSG 稍久，可能影響到 SEO 的結果。
+使用 Gatsby 開發網頁則可以避免此疑慮，由於 Gatsby 預設使用 SSG 的渲染方式，於編譯期就將 React 開發的網頁元件（components）檔和 CSS 檔預先渲染成一 HTML 並且依據每個網頁頁面製成各頁面的 HTML 檔；而 <a href="https://www.gatsbyjs.com/blog/how-does-deferred-static-generation-affect-seo/#gatsby-skip-here">DSG 的渲染方式</a>未預先渲染選定的頁面，網站伺服器於第一次收到該特定頁面的請求才開始編譯並渲染（類似 SSR 的運作），會導致載入的時間較 SSG 稍久，可能影響到 SEO 的結果。
 
 ## Reference
 <ol>
     <li>https://www.gatsbyjs.com/docs</li>
+    <li>https://www.youtube.com/watch?v=Qms4k6y7OgI&list=PL4cUxeGkcC9hw1g77I35ZivVLe8k2nvjB （Gatsby Tutorial）</li>
     <li>https://simonallen.coderbridge.io/2021/07/23/what-is-jamstack/ （Jamstack）</li>
+    <li>https://snipcart.com/blog/jamstack</li>
     <li>https://ithelp.ithome.com.tw/articles/10235208 （Jamstack）</li>
     <li>https://www.youtube.com/watch?v=2mnNuTCAGkI （Jamstack）</li>
     <li>https://www.youtube.com/watch?v=Y8PXMbr0Kqo （Jamstck）</li>
