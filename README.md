@@ -81,3 +81,14 @@ gatsby develop
     <li>https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-tw （SEO）</li>
     <li>https://progressbar.tw/posts/247 （SEO）</li>
 <ol>
+
+## ToDoList
+### gatsby-plugin-react-svg
+Build 專案時，Webpack 打包 JavaScript 和 CSS 檔失敗。
+#### Do
+1. 僅將含有 SVG 的元件註解：Failed，Build 專案時，Webpack 打包 JavaScript 和 CSS 檔失敗。
+2. 僅將 gatsby-config 的 gatsby-plugin-react-svg 設定註解：Failed，無效的 tag（svg），將 JS 和 CSS 編譯成靜態的 HTML 失敗。
+3. 同時執行以上兩步驟：Successful，成功將專案編譯為靜態檔。
+4. 建立新的 Gatsby 專案再安裝且設定 gatsby-plugin-react-svg：successful，成功將專案編譯為靜態檔。
+#### Root cause
+推測為 gatsby-plugin-react-svg 與其他 plugin 的設定衝突。
