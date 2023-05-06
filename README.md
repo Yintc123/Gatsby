@@ -80,8 +80,7 @@ gatsby develop
     <li>https://progressbar.tw/posts/297 （SEO）</li>
     <li>https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-tw （SEO）</li>
     <li>https://progressbar.tw/posts/247 （SEO）</li>
-<ol>
-
+</ol>
 
 ## ToDoList
 ### gatsby-plugin-react-svg
