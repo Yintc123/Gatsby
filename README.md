@@ -67,6 +67,13 @@ gatsby develop
 此專案的 Gatsby 版本
 - Gatsby CLI version：5.7.0
 - Gatsby version：5.9.0
+- React：18.2.0
+## Dependency
+此專案使用到的套件：
+<ol>
+  <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。</li>
+</ol>
+
 ## Reference
 <ol>
     <li>https://www.gatsbyjs.com/docs</li>
