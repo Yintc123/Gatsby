@@ -10,7 +10,7 @@
 ![siteUrl](siteUrl.png)
 
 註：
-- gatsby build --prefix-paths：
+- gatsby build --prefix-paths：prefix-paths 為前綴路徑，如未加上此參數將會從根目錄編譯檔案。
 - gh-pages -d <資料夾>：-d 為指定資料夾；資料夾為欲上傳 gh-pages 分支的資料夾。
 
 ## Steps
@@ -34,6 +34,8 @@ gatsby clean
     <li>https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/</li>
     <li>https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows</li>
     <li>https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#enable-long-paths-in-windows-10-version-1607-and-later</li>
+    <li>https://www.gatsbyjs.com/docs/debugging-cache-issues/</li>
+    <li>https://stackoverflow.com/questions/71099524/why-my-gatsby-build-failed-on-error-enoent-no-such-file-or-directory</li>
 </ol>
 
 ## <a href="https://yintc123.github.io/Gatsby/">HOME</a>
