@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "my-gatsby-site",
+  "homepage": "https://yintc123.github.io/Gatsby/",
   "author": "Yintc123",
   "keywords": [
     "gatsby"
