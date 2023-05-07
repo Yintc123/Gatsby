@@ -9,7 +9,7 @@
 - [x] gatsby-config.ts 設置 "pathPrefix"：專案的資料夾（如下圖）</br>
 ![siteUrl](siteUrl.png)
 
-註：
+### 備註：
 - gatsby build --prefix-paths：prefix-paths 為前綴路徑，如未加上此參數將會從根目錄編譯檔案。
 - gh-pages -d <資料夾>：-d 為指定資料夾；<資料夾> 為欲上傳 gh-pages 分支的資料夾。
 
