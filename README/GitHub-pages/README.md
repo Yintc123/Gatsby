@@ -18,13 +18,13 @@
 
 ## Problem
 ### Filename too long
-問題：執行 gh-pages 的指令時，發生檔案路徑過長導致執行錯誤。
+問題：執行 gh-pages 的指令時，發生檔案路徑過長導致執行錯誤。</br>
 解決：Git 預設僅能處理 260 個字元的檔案名稱（含檔案路徑），設定 Git 讀取長檔案名稱。
 ```Shell
 git config --system core.longpaths true
 ```
 ### ENOENT: no such file or directory（.cache）
-問題：Gatsby 會依據快取編譯專案以節省編譯時間，避免每一次都重新編譯。
+問題：Gatsby 會依據快取編譯專案以節省編譯時間，避免每一次都重新編譯。</br>
 解決：清除快取。
 ```Shell
 gatsby clean
