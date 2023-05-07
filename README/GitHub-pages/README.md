@@ -32,6 +32,7 @@ gatsby clean
 ## Reference
 <ol>
     <li>https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/</li>
+    <li>https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/path-prefix/</li>
     <li>https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows</li>
     <li>https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry#enable-long-paths-in-windows-10-version-1607-and-later</li>
     <li>https://www.gatsbyjs.com/docs/debugging-cache-issues/</li>
