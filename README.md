@@ -64,7 +64,9 @@ cd my-gatsby-site
 ```Shell
 gatsby develop
 ```
-
+此專案的 Gatsby 版本
+- Gatsby CLI version：5.7.0
+- Gatsby version：5.9.0
 ## Reference
 <ol>
     <li>https://www.gatsbyjs.com/docs</li>
