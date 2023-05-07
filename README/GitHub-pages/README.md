@@ -39,4 +39,4 @@ gatsby clean
     <li>https://stackoverflow.com/questions/71099524/why-my-gatsby-build-failed-on-error-enoent-no-such-file-or-directory</li>
 </ol>
 
-## <a href="https://yintc123.github.io/Gatsby/">HOME</a>
+## <a href="https://github.com/Yintc123/Gatsby/tree/main#dependency">HOME</a>
