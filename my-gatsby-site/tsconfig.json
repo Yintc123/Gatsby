@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "pretty": true, // Stylize errors and messages using color and context, this is on by default
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Projects */
