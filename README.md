@@ -72,6 +72,8 @@ gatsby develop
 此專案使用到的套件：
 <ol>
   <li>gh-pages：搭配 GitHub Page 將前端專案於 GitHub 上線。（<a href="https://github.com/Yintc123/Gatsby/tree/main/README/GitHub-pages">GoTo</a>）</li>
+  <li>bootstrap：網站和網路應用程式開發的開源前端開發工具。</li>
+  <li>react-bootstrap：整合 React 和 Bootstrap 的前端開發工具。</li>
 </ol>
 
 ## Reference
