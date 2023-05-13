@@ -1,12 +1,13 @@
 import { Link } from "gatsby";
 import React, { ReactNode } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 interface Props {
     // children : ReactNode
 }
 
 // React.FC：FC 為 FunctionComponent 的簡寫
-const Navbar: React.FC<Props> = () => {
+const Navigationbar: React.FC<Props> = () => {
     return (
         <nav>
             <Link to="/">Home</Link>
@@ -16,4 +17,4 @@ const Navbar: React.FC<Props> = () => {
     )
 }
 
-export default Navbar;
+export default Navigationbar;

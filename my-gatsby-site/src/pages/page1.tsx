@@ -1,12 +1,12 @@
 import { PageProps } from "gatsby";
 import React from "react";
 
-import Navbar from "../components/Navbar/Navbar";
+import Navigationbar from "../components/Navigationbar/Navigationbar";
 
 const Page1: React.FC<PageProps> = () => {
     return (
         <>
-            <Navbar />
+            <Navigationbar />
             <h1>Hello Page1</h1>
         </>
     )

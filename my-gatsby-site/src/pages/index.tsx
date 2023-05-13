@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
-import Navbar from "../components/Navbar/Navbar";
+import Navigationbar from "../components/Navigationbar/Navigationbar";
 
 const pageStyles = {
   color: "#232129",
@@ -141,7 +141,7 @@ const links = [
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <>
-      <Navbar />
+      <Navigationbar />
       <main style={pageStyles}>
         <h1 style={headingStyles}>
           Congratulations Yin
